@@ -2,12 +2,14 @@ program TPLVisor;
 
 uses
   Forms,
-  interpreter in 'interpreter.pas',
-  befehle in 'befehle.pas',
-  parsererrors in 'parsererrors.pas',
-  parser in 'parser.pas',
-  TPLVisorMain in 'TPLVisorMain.pas' {TPLVisorForm},
-  turingmaschine in 'turingmaschine.pas';
+  TPLInterpreter in 'TPLInterpreter.pas',
+  TPLBefehle in 'TPLBefehle.pas',
+  TPLErrors in 'TPLErrors.pas',
+  TPLParser in 'TPLParser.pas',
+  TPLTuringmaschine in 'TPLTuringmaschine.pas',
+  TPLMagnetband in 'TPLMagnetband.pas',
+  TPLZeichen in 'TPLZeichen.pas',
+  TPLVisorMain in 'TPLVisorMain.pas' {TPLVisorForm};
 
 {$R *.res}
 
